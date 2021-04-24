@@ -13,30 +13,30 @@ Then create an inventory schema in your MySQL database using the provided invent
 
 **On Windows from Command Line:**
 
-javac -cp .;source-files\mysql-connector-java-8.0.23.jar;. edu\ucalgary\ensf409\GUIController.java
+>javac -cp .;source-files\mysql-connector-java-8.0.23.jar;. edu\ucalgary\ensf409\GUIController.java
 
-java -cp .;source-files\mysql-connector-java-8.0.23.jar;. edu.ucalgary.ensf409.GUIController
+>java -cp .;source-files\mysql-connector-java-8.0.23.jar;. edu.ucalgary.ensf409.GUIController
 
 **On Mac from Command Line:**
 
-javac -cp .:source-files/mysql-connector-java-8.0.23.jar:. edu/ucalgary/ensf409/GUIController.java
+>javac -cp .:source-files/mysql-connector-java-8.0.23.jar:. edu/ucalgary/ensf409/GUIController.java
 
-java -cp .:source-files/mysql-connector-java-8.0.23.jar:. edu.ucalgary.ensf409.GUIController      
+>java -cp .:source-files/mysql-connector-java-8.0.23.jar:. edu.ucalgary.ensf409.GUIController      
 
 
 ## How do I run the unit tests?
 
 **On Windows from Command Line:**
 
-javac -cp .;source-files\mysql-connector-java-8.0.23.jar;source-files\junit-4.13.2.jar;source-files\hamcrest-core-1.3.jar edu\ucalgary\ensf409\InventoryTest.java
+>javac -cp .;source-files\mysql-connector-java-8.0.23.jar;source-files\junit-4.13.2.jar;source-files\hamcrest-core-1.3.jar edu\ucalgary\ensf409\InventoryTest.java
 
-java -cp .;source-files\mysql-connector-java-8.0.23.jar;source-files\junit-4.13.2.jar;source-files\hamcrest-core-1.3.jar org.junit.runner.JUnitCore edu.ucalgary.ensf409.InventoryTest
+>java -cp .;source-files\mysql-connector-java-8.0.23.jar;source-files\junit-4.13.2.jar;source-files\hamcrest-core-1.3.jar org.junit.runner.JUnitCore edu.ucalgary.ensf409.InventoryTest
 
 **On Mac from Command Line:**
 
-javac -cp .:source-files/mysql-connector-java-8.0.23.jar:source-files/junit-4.13.2.jar:source-files/hamcrest-core-1.3.jar edu/ucalgary/ensf409/InventoryTest.java
+>javac -cp .:source-files/mysql-connector-java-8.0.23.jar:source-files/junit-4.13.2.jar:source-files/hamcrest-core-1.3.jar edu/ucalgary/ensf409/InventoryTest.java
 
-java -cp .:source-files/mysql-connector-java-8.0.23.jar:source-files/junit-4.13.2.jar:source-files/hamcrest-core-1.3.jar org.junit.runner.JUnitCore edu.ucalgary.ensf409.InventoryTest
+>java -cp .:source-files/mysql-connector-java-8.0.23.jar:source-files/junit-4.13.2.jar:source-files/hamcrest-core-1.3.jar org.junit.runner.JUnitCore edu.ucalgary.ensf409.InventoryTest
 
 
 ## Requirements
